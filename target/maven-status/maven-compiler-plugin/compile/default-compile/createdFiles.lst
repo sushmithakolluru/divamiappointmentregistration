@@ -1,0 +1,4 @@
+divami\testautomation\divamiappointmentregistration\pages\AbstractPage.class
+divami\testautomation\divamiappointmentregistration\pages\HomePage.class
+divami\testautomation\divamiappointmentregistration\properties\EnvironmentProperties.class
+divami\testautomation\divamiappointmentregistration\properties\Environment.class

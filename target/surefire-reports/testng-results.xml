@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="81714" started-at="2021-02-09T15:08:34 CET" finished-at="2021-02-09T15:09:56 CET">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="81714" started-at="2021-02-09T15:08:34 CET" finished-at="2021-02-09T15:09:56 CET">
+      <class name="ModuleTestBySpeciality">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:ModuleTestBySpeciality@7c56e013]" name="setupTest" is-config="true" duration-ms="73321" started-at="2021-02-09T15:08:34 CET" finished-at="2021-02-09T15:09:48 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testhomepage()[pri:0, instance:ModuleTestBySpeciality@7c56e013]" name="testhomepage" duration-ms="1245" started-at="2021-02-09T15:09:48 CET" finished-at="2021-02-09T15:09:49 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhomepage -->
+        <test-method status="FAIL" signature="testsubmitBynamebyspeciality()[pri:0, instance:ModuleTestBySpeciality@7c56e013]" name="testsubmitBynamebyspeciality" duration-ms="5798" started-at="2021-02-09T15:09:50 CET" finished-at="2021-02-09T15:09:56 CET">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="button-div hidden-xs">...</div> is not clickable at point (1111, 452). Other element would receive the click: <div class="gsight2_inviteDialog_screenCover" style="display: block;"></div>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-57JD9T5', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f1417c832aa3bb0a272ffd13c02543c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="button-div hidden-xs">...</div> is not clickable at point (1111, 452). Other element would receive the click: <div class="gsight2_inviteDialog_screenCover" style="display: block;"></div>
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-57JD9T5', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0f1417c832aa3bb0a272ffd13c02543c
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at ModuleTestBySpeciality.testsubmitBynamebyspeciality(ModuleTestBySpeciality.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsubmitBynamebyspeciality -->
+      </class> <!-- ModuleTestBySpeciality -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80099" started-at="2021-02-10T12:05:59 CET" finished-at="2021-02-10T12:07:19 CET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80099" started-at="2021-02-10T12:05:59 CET" finished-at="2021-02-10T12:07:19 CET">
+      <class name="ModuleTestBySpeciality">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:ModuleTestBySpeciality@b672aa8]" name="setupTest" is-config="true" duration-ms="50811" started-at="2021-02-10T12:05:59 CET" finished-at="2021-02-10T12:06:50 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="testhomepage()[pri:0, instance:ModuleTestBySpeciality@b672aa8]" name="testhomepage" duration-ms="1534" started-at="2021-02-10T12:06:50 CET" finished-at="2021-02-10T12:06:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testhomepage -->
+        <test-method status="PASS" signature="testsubmitBynamebyspeciality()[pri:1, instance:ModuleTestBySpeciality@b672aa8]" name="testsubmitBynamebyspeciality" duration-ms="10183" started-at="2021-02-10T12:06:52 CET" finished-at="2021-02-10T12:07:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsubmitBynamebyspeciality -->
+        <test-method status="PASS" signature="testsubmitbuttonisdisabledwithblankvalues()[pri:2, instance:ModuleTestBySpeciality@b672aa8]" name="testsubmitbuttonisdisabledwithblankvalues" duration-ms="501" started-at="2021-02-10T12:07:03 CET" finished-at="2021-02-10T12:07:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsubmitbuttonisdisabledwithblankvalues -->
+        <test-method status="PASS" signature="testpatientmandatoryfields()[pri:3, instance:ModuleTestBySpeciality@b672aa8]" name="testpatientmandatoryfields" duration-ms="5368" started-at="2021-02-10T12:07:03 CET" finished-at="2021-02-10T12:07:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testpatientmandatoryfields -->
+        <test-method status="PASS" signature="testappointmentmandatoryfields()[pri:4, instance:ModuleTestBySpeciality@b672aa8]" name="testappointmentmandatoryfields" duration-ms="7628" started-at="2021-02-10T12:07:09 CET" finished-at="2021-02-10T12:07:17 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testappointmentmandatoryfields -->
+        <test-method status="PASS" signature="quitthebrowser()[pri:0, instance:ModuleTestBySpeciality@b672aa8]" name="quitthebrowser" is-config="true" duration-ms="1917" started-at="2021-02-10T12:07:17 CET" finished-at="2021-02-10T12:07:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitthebrowser -->
+      </class> <!-- ModuleTestBySpeciality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
